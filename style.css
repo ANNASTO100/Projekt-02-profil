@@ -17,5 +17,86 @@ tlačítko twitter          #1da1f2
 
 body {
   background-color: #bdc3c7;
+  margin: 50px 50px;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
+.profil {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: auto;
+} 
+.obsah {
+    background-color: #31363b;
+    width: 300px;
+    padding: 25px;
+    color: #bdc3c7;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: rgb(51, 51, 51) 4px 6px 10px;
+}
+.logo{
+  background-color:#b92e81;
+  border-radius: 50%;
+  position: absolute;
+  left: 280px;
+  top: 225px;
+}
+.foto{
+  display: block;
+  width:300px;
+  box-shadow: rgb(51, 51, 51) 4px 6px 10px;
+}
+.odkazy {
+  display: flex;
+  flex-direction: row;
+  width:300px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  list-style: none;
+  box-shadow: rgb(51, 51, 51) 4px 6px 10px;
+  
+}
+a{
+color: #bdc3c7;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+text-decoration: none;
+
+}
+.portfolio{
+  flex-grow: 1;
+  background-color: #31363b;
+  padding:10px;
+  border-top: solid 1px #3f464d;
+  border-bottom: solid 1px #3f464d;
+  flex-basis: 100%;
+}
+.facebook{
+  background-color: #31363b;
+  padding:10px;
+  flex-grow: 1;
+  
+}
+.twitter{
+  background-color: #31363b;
+  padding:10px;
+  flex-grow: 1;
+}
+
+.twitter:hover {
+  background-color: #1da1f2 ;
+}
+
+.facebook:hover {
+  background-color: #3b5998;
+}
+
+.portfolio:hover {
+  background-color: #e74c3c;
+}
